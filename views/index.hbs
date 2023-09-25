@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>The Rose</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          <figure>
+            <img
+              id="logo"
+              src="/images/Logo_TheRoseBlack.png"
+              alt="The Rose Logo"
+            />
+          </figure>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery">Gallery</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro">
+        <img
+          id="circle"
+          srcset="
+            /videos/round-el-story.png?w=1160&amp;e=webp&amp;nll=true 2x,
+            /videos/round-el-story.png?w=1740&amp;e=webp&amp;nll=true 3x
+          "
+          src="/videos/round-el-story.png?w=1160&amp;e=webp&amp;nll=true"
+        />
+        <video autoplay muted loop id="introVideo">
+          <source src="/videos/the-rose-background-vid.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="typewriter">
+        <div class="typing">The Rose.</div>
+        <div id="yellow"></div>
+      </div>
+      <div class="cards-wrapper row d-flex justify-content-center">
+      <a href="">
+        <div class="card" style="width: 18rem">
+          <img src="/images/The-rose_Void.jpg" alt="album Void" />
+          <h5 class="card-title text-center">VOID</h5>
+        </div>
+      </a>
+      <a href="">
+        <div class="card" style="width: 18rem">
+          <img src="/images/The-rose_Dawn.jpg" alt="album Dwan" />
+          <h5 class="card-title text-center">DAWN</h5>
+        </div>
+      </a>
+      <a href="">
+        <div class="card" style="width: 18rem">
+          <img src="/images/The-rose_Red.jpg" alt="album Red" />
+          <h5 class="card-title text-center">RED</h5>
+        </div>
+      </a>
+      <a href="">
+        <div class="card" style="width: 18rem">
+          <img src="/images/The-rose_Heal.jpg" alt="album Heal" />
+          <h5 class="card-title text-center">HEAL</h5>
+        </div>
+      </a>
+    </div>
+    </main>
+    <footer class="bg-dark text-white">
+      <!--Social Media Icons-->
+      <div class="social px-5">
+        <a
+          href="https://www.instagram.com/official_therose"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <img src="/icons/ig.svg" alt="instagram icon" />
+        </a>
+        <a
+          href="https://twitter.com/i/flow/login?redirect_after_login=%2Ftherose_0803"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <img src="/icons/twitter.svg" alt="twitter icon" />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UClcbcYLmTpDeuK1EFeqh5uA"
+          target="_blank"
+          aria-label="Youtube"
+        >
+          <img src="/icons/youtube.svg" alt="youtube icon" />
+        </a>
+        <a
+          href="https://discord.com/invite/therose"
+          target="_blank"
+          aria-label="Discord"
+        >
+          <img src="/icons/discord.svg" alt="discord icon" />
+        </a>
+        <a
+          href="https://www.tiktok.com/@official.therose"
+          target="_blank"
+          aria-label="Tiktok"
+        >
+          <img src="/icons/tiktok.svg" alt="tiktok icon" />
+        </a>
+      </div>
+      <!--Social Media Icons-->
+      <!-- Copyright -->
+      <p>© 2023 Copyright: The Rose</p>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>

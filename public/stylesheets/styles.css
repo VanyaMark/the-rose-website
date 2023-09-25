@@ -1,0 +1,133 @@
+a {
+    text-decoration: none;
+    color: inherit; /* Resets the color to inherit from the parent element */
+  }
+  
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #logo {
+    max-width: 7rem;
+    height: auto;
+  }
+  body {
+    background-color: #f8f9fa;
+  }
+  .intro {
+    position: relative;
+    background-color: rgb(31, 31, 31);
+  }
+  
+  #introVideo {
+    /* right: 0;
+      top: 15%;
+      min-width: 100%;
+      min-height: 80%;
+  */
+    width: 90%;
+    height: auto;
+  }
+  
+  #circle {
+    position: absolute;
+    top: 30%;
+    right: 60px;
+    transform: translate(0, -50%);
+    width: 17rem;
+    height: auto;
+    animation: rotation 7s infinite linear;
+  }
+  
+  #circle:hover {
+    background-color: yellow;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  footer {
+    background-color: #343a40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+  }
+  
+  .social {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+  }
+  .social img {
+    width: 28px;
+    height: 20px;
+    padding: 0 4px;
+  }
+  
+  .typewriter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    background-color: rgb(13, 18, 26);
+  }
+  
+  .typing {
+    width: 16ch;
+    animation: typing 3s steps(16), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 7em;
+    color: white;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  #yellow {
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+  
+   .card img {
+    border-radius: 5% 5% 0 0;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    border-radius: 5%;
+  }
+  
